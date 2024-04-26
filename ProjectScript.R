@@ -1,7 +1,7 @@
 Library(tidyverse)
 View(CustomerDemographicData)
 
-#Data cleaning
+#Task 3. Data cleaning and preprocessing
 
 #CustomerDemographicData
 #Removing empty rows and columns
@@ -50,7 +50,7 @@ colnames(CustomerDemographicData_cleaned)
 colnames(InStoreSalesData_cleaned2)
 
 
-#Merging DataSets
+#Task 4: Perform Data Merge and Integration
 Sales_merge <- merge(CustomerDemographicData_cleaned, InStoreSalesData_cleaned2, OnlineSalesData_cleaned,
                      by = c("customer_id"))
 
@@ -71,6 +71,7 @@ summary(Sales_merge2)  #Summary of statistics
 library(skimr)
 skim(Sales_merge2) #Perform skim to display summary statistics
 
+#Task 5: Perform Data Analysis
 #Performance of EDA
 library(tidyverse)
 library(explore)
@@ -101,7 +102,7 @@ Sales_merge2 %>%
     output_file = "incomeLevelstatistics.html"
   )
 
-#Checking for data integrity
+#Task 6: Checking for data integrity and consistency
 library(dplyr)
 data <- Sales_merge2
 
@@ -132,7 +133,7 @@ summary_stats <- summary(data)
 print("Summary Statistics:")
 print(summary_stats)
 
-# 7. Data Cleaning and Merging Process Documentation:
+# Task 7. Data Cleaning and Merging Process Documentation:
 
 # Step 1: Data Cleaning for Customer Demographic Data
 # - Loaded the tidyverse library for data manipulation.

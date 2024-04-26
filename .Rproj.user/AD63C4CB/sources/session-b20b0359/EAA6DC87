@@ -3,7 +3,7 @@
     "path": "~/R coursework/ProjectScript.R",
     "project_path": "ProjectScript.R",
     "type": "r_source",
-    "hash": "1927928054",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1714053797039.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "157,0",
-        "scrollLine": "133"
+        "cursorPosition": "133,20",
+        "scrollLine": "109"
     },
     "folds": "",
-    "lastKnownWriteTime": 1714139253,
+    "lastKnownWriteTime": 1714139636,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1714139254021,
+    "last_content_update": 1714139636517,
     "read_only": false,
     "read_only_alternatives": []
 }
